@@ -1,0 +1,11 @@
+[
+  { "id": "alphabet", "title": "Алфавит", "subtitle": "Первые буквы и звуки", "lessons": 8, "art": "alphabet", "color": "green", "prerequisite": null, "ready": true },
+  { "id": "numbers", "title": "Цифры", "subtitle": "Считаем от 1 до 20", "lessons": 4, "art": "numbers", "color": "purple", "prerequisite": "alphabet", "ready": true },
+  { "id": "colors", "title": "Цвета", "subtitle": "Мир ярких красок", "lessons": 2, "art": "colors", "color": "peach", "prerequisite": "numbers", "ready": true },
+  { "id": "words", "title": "Первые слова", "subtitle": "Добрые слова каждый день", "lessons": 2, "art": "words", "color": "blue", "prerequisite": "colors", "ready": true },
+  { "id": "family", "title": "Моя семья", "subtitle": "О самых близких", "lessons": 2, "art": "family", "color": "peach", "prerequisite": "words", "ready": true },
+  { "id": "food", "title": "Еда", "subtitle": "Слова со вкусом", "lessons": 2, "art": "food", "color": "purple", "prerequisite": "family", "ready": true },
+  { "id": "animals", "title": "Животные", "subtitle": "Наши маленькие друзья", "lessons": 2, "art": "animals", "color": "green", "prerequisite": "food", "ready": true },
+  { "id": "body", "title": "Моё тело", "subtitle": "Смотрим, слушаем, растём", "lessons": 2, "art": "body", "color": "peach", "prerequisite": "animals", "ready": true },
+  { "id": "nature", "title": "Природа", "subtitle": "От цветка до гор", "lessons": 4, "art": "nature", "color": "blue", "prerequisite": "body", "ready": false }
+]

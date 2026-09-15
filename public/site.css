@@ -1,0 +1,112 @@
+/* Публичные страницы продолжают визуальный язык игры, без карточек и новых счётчиков. */
+.public-site { --public-green: #278454; --public-ink: #354b37; color: var(--public-ink); background: #fafbf7; font-family: "Nunito Variable", "Trebuchet MS", Arial, sans-serif; min-height: 100vh; line-height: 1.7; }
+.public-site *, .public-faq * { box-sizing: border-box; }
+.public-site h1, .public-site h2, .public-site h3, .public-site p { margin: 0; }
+.public-site a { color: inherit; text-decoration: none; }
+.public-site a:focus-visible, .public-faq a:focus-visible, .public-faq summary:focus-visible { outline: 3px solid #8770a4; outline-offset: 5px; }
+.public-skip { position: absolute; z-index: 10; top: -80px; left: 20px; background: #fffefa; border: 2px solid #278454; padding: 11px 18px; border-radius: 9px; }
+.public-skip:focus { top: 12px; }
+.public-header { display: flex; justify-content: space-between; align-items: center; gap: 24px; max-width: 1200px; margin: 0 auto; padding: 22px 36px; }
+.public-logo { display: flex; align-items: center; gap: 11px; font-size: 21px; font-weight: 900; letter-spacing: -.65px; color: #365d3d !important; white-space: nowrap; }
+.public-logo img { display: block; border-radius: 12px; }
+.public-logo i { color: #d1ac5c; font-style: normal; }
+.public-header > nav { display: flex; align-items: center; gap: 26px; font-size: 12px; font-weight: 750; color: #66745d; }
+.public-header nav > a:hover, .public-header nav > a[aria-current] { color: #2d6c3d; }
+.public-site .public-button { display: inline-flex; align-items: center; justify-content: center; gap: 15px; min-height: 46px; padding: 11px 23px; border-radius: 9px; background: #278454; color: #fff; box-shadow: 0 3px 0 #1c653e; font-size: 13px; line-height: 1.45; font-weight: 800; transition: transform .2s, background .2s; }
+.public-site .public-button:hover { color: #fff; background: #21764a; transform: translateY(-2px); }
+.public-site .public-button-small { min-height: 39px; padding: 9px 17px; font-size: 11px; }
+.public-hero { position: relative; overflow: hidden; background: #dff2e4; min-height: 400px; isolation: isolate; }
+.public-hero-image { position: absolute; z-index: -2; height: 100%; width: auto; max-width: none; right: 0; bottom: 0; }
+.public-hero::after { content: ''; position: absolute; inset: 0 40% 0 0; z-index: -1; background: linear-gradient(90deg, #dff2e4 12%, #dff2e4dd 42%, #dff2e400); }
+.public-hero-inner { max-width: 1200px; padding: 55px 36px; margin: auto; }
+.public-eyebrow { display: block; color: #6c8359; letter-spacing: 1.6px; font-size: 9px; line-height: 1.6; font-weight: 850; }
+.public-hero h1 { margin-top: 12px; font-size: clamp(38px, 4.2vw, 54px); line-height: 1.14; letter-spacing: -1.5px; font-weight: 900; color: #2c5636; }
+.public-hero h2 { margin-top: 7px; font-size: 34px; line-height: 1.3; font-weight: 800; letter-spacing: -.65px; }
+.public-hero p { max-width: 360px; font-size: 15px; color: #55734f; margin-top: 18px; line-height: 1.8; }
+.public-hero .public-button { margin-top: 25px; }
+.public-article { max-width: 1030px; margin: 0 auto; padding: 42px 36px 20px; }
+.public-article-heading { max-width: 1030px; margin: auto; padding: 38px 36px 18px; }
+.public-wordmark { color: #315a38; font-size: 38px; font-weight: 900; letter-spacing: -1px; }
+.public-article-heading h1 { color: #53644a; font-size: 29px; font-weight: 850; letter-spacing: -.7px; margin-top: 6px; }
+.public-article-heading > p:last-child { max-width: 640px; font-size: 14px; color: #6b7960; margin-top: 12px; }
+.public-intro { padding: 32px 0 38px; max-width: 750px; }
+.public-intro h2 { font-size: 28px; line-height: 1.4; font-weight: 850; letter-spacing: -.6px; margin-top: 9px; }
+.public-intro p { color: #66735c; font-size: 14px; line-height: 1.95; margin-top: 13px; }
+.public-prose { max-width: 770px; }
+.public-prose > section { padding: 25px 0; border-top: 1px solid #e2e8d8; }
+.public-prose h2 { font-size: 21px; font-weight: 850; line-height: 1.4; letter-spacing: -.3px; }
+.public-prose p { font-size: 14px; color: #67755e; line-height: 1.95; margin-top: 11px; }
+.public-start { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 30px 0; margin-top: 16px; border-block: 1px solid #e1e7d7; }
+.public-start h2 { font-size: 23px; font-weight: 850; line-height: 1.4; }
+.public-start p { font-size: 13px; color: #69775f; max-width: 520px; margin-top: 8px; }
+.public-start .public-button { flex-shrink: 0; }
+.public-faq { padding: 38px 0 26px; }
+.public-faq-compact { margin-top: 20px; border-top: 1px solid #e2e8d8; }
+.public-section-heading { margin-bottom: 23px; }
+.public-section-heading h2 { font-size: 26px; font-weight: 850; line-height: 1.4; letter-spacing: -.5px; color: #3f563a; margin: 9px 0 0; }
+.public-section-heading > p { margin-top: 8px; font-size: 13px; line-height: 1.8; color: #6e7b61; }
+.public-faq-list { border-top: 1px solid #e2e7d8; }
+.public-faq-item { border-bottom: 1px solid #e2e7d8; }
+.public-faq-item summary { position: relative; display: block; padding: 18px 35px 18px 0; cursor: pointer; font-size: 14px; line-height: 1.7; font-weight: 800; color: #4d653f; list-style: none; }
+.public-faq-item summary::-webkit-details-marker { display: none; }
+.public-faq-item summary::after { content: '+'; position: absolute; right: 5px; top: 16px; color: #8d9d75; font-size: 23px; line-height: 1.4; font-weight: 500; }
+.public-faq-item[open] summary::after { content: '-'; }
+.public-faq-item > p { margin: 0; padding: 0 32px 21px 0; max-width: 800px; font-size: 13px; color: #65745a; line-height: 1.9; }
+.public-faq-links { display: flex; flex-wrap: wrap; gap: 24px; margin-top: 23px; font-size: 11px; line-height: 1.8; color: #547a43; }
+.public-faq-links > a { text-underline-offset: 4px; text-decoration: underline; }
+.public-sources { border-top: 1px solid #e3e8db; padding-top: 26px; margin-top: 15px; }
+.public-sources > h2 { font-size: 23px; font-weight: 850; }
+.public-sources ol { padding-left: 24px; margin: 20px 0 0; }
+.public-sources li { padding: 12px 0 16px 7px; color: #91a177; border-bottom: 1px solid #e8ecdf; }
+.public-sources li > a { display: inline-block; color: #4d7841; font-size: 14px; font-weight: 800; text-decoration: underline; text-underline-offset: 4px; }
+.public-sources li > a > span { margin-left: 9px; color: #98aa7e; }
+.public-sources li > p { color: #6a785d; font-size: 12px; line-height: 1.9; margin-top: 8px; }
+.public-status { font-size: 11px; color: #79775a; line-height: 1.9; border-top: 1px solid #e3e8d9; padding-top: 20px; margin-top: 26px !important; }
+.public-footer { display: flex; align-items: center; justify-content: space-between; gap: 22px; max-width: 1200px; margin: auto; padding: 24px 36px 30px; font-size: 10px; line-height: 1.8; color: #748368; }
+.public-footer > nav { display: flex; flex-wrap: wrap; gap: 20px; }
+.public-footer a:hover { text-decoration: underline; }
+.public-home-snapshot .public-intro { padding-bottom: 10px; }
+.public-home-snapshot .public-faq { margin-top: 8px; }
+.public-noscript { max-width: 650px; margin: 22px auto; padding: 15px 24px; font: 14px/1.8 system-ui, sans-serif; color: #647359; }
+.public-not-found { padding-top: 80px; max-width: 760px; text-align: center; }
+.public-not-found img { display: block; margin: 0 auto 23px; }
+.public-not-found h1 { font-size: 32px; line-height: 1.35; font-weight: 850; margin-top: 12px; }
+.public-not-found > p:not(.public-eyebrow) { color: #6a785f; font-size: 14px; margin-top: 16px; }
+.public-not-found .public-button { margin-top: 25px; }
+@media (max-width: 900px) { .public-header { padding-inline: 24px; } .public-header > nav { gap: 16px; } .public-hero-inner { padding-inline: 30px; } .public-hero-image { right: -110px; } .public-hero::after { right: 27%; } }
+@media (max-width: 620px) {
+  .public-header { padding: 15px 19px; align-items: flex-start; gap: 14px; flex-wrap: wrap; }
+  .public-logo { font-size: 20px; }
+  .public-header > nav { width: 100%; gap: 15px; font-size: 10px; justify-content: space-between; }
+  .public-header .public-button-small { min-height: 34px; padding: 8px 11px; font-size: 10px; }
+  .public-hero { min-height: 459px; }
+  .public-hero-image { height: 202px; right: -21px; }
+  .public-hero::after { inset: 0 0 40%; background: linear-gradient(#dff2e4 40%, #dff2e400); }
+  .public-hero-inner { padding: 29px 23px; }
+  .public-hero h1 { font-size: 37px; letter-spacing: -1.1px; margin-top: 10px; }
+  .public-hero h2 { font-size: 25px; margin-top: 7px; }
+  .public-hero p { max-width: 270px; font-size: 12px; margin-top: 14px; }
+  .public-hero .public-button { margin-top: 18px; min-height: 42px; font-size: 11px; padding: 11px 16px; }
+  .public-article { padding: 25px 23px 15px; }
+  .public-article-heading { padding: 29px 23px 8px; }
+  .public-wordmark { font-size: 32px; }
+  .public-article-heading h1 { font-size: 24px; }
+  .public-article-heading > p:last-child { font-size: 12px; }
+  .public-intro { padding: 20px 0 28px; }
+  .public-intro h2 { font-size: 25px; }
+  .public-intro p, .public-prose p { font-size: 13px; }
+  .public-prose h2 { font-size: 20px; }
+  .public-prose > section { padding-block: 23px; }
+  .public-start { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .public-start h2 { font-size: 22px; }
+  .public-start p { font-size: 12px; }
+  .public-section-heading h2 { font-size: 23px; }
+  .public-section-heading > p { font-size: 12px; }
+  .public-faq-item summary { font-size: 13px; padding-block: 17px; }
+  .public-faq-item > p { font-size: 12px; padding-right: 17px; }
+  .public-faq-links { gap: 13px 20px; font-size: 10px; }
+  .public-footer { padding-inline: 23px; flex-direction: column; align-items: flex-start; gap: 12px; }
+  .public-footer > nav { gap: 11px 20px; }
+  .public-sources > h2 { font-size: 21px; }
+}
+@media (prefers-reduced-motion: reduce) { .public-site * { animation: none !important; transition: none !important; } }

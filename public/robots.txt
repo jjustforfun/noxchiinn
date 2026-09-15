@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /audio/
+Disallow: /release-manifest.json
+# Indexing is disabled in HTML until an approved domain is configured.

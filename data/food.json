@@ -1,0 +1,18 @@
+{
+  "$schema": "./lesson.schema.json", "id": "food", "title": "Еда", "level": 6, "language": "ce", "version": 1, "reviewStatus": "native-review-needed", "sourceIds": ["phrases", "apple", "pear", "meat", "tea"],
+  "note": "Базовые словарные формы без упражнений на согласование. Русский текст помогает читать, но не заменяет носителя.",
+  "lessons": [
+    { "id": "food-1", "title": "За семейным столом", "description": "Хлеб, вода, молоко и соль", "duration": 3, "items": ["food-bread", "food-water", "food-milk", "food-salt"] },
+    { "id": "food-2", "title": "Вкусные открытия", "description": "Яблоко, груша, мясо и чай", "duration": 3, "items": ["food-apple", "food-pear", "food-meat", "food-tea"] }
+  ],
+  "items": [
+    { "id": "food-bread", "chechen": "Бепиг", "russian": "Хлеб", "transcription": "бе-пиг; один из вариантов названия хлеба", "type": "word", "audio": "/audio/food-bread.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#bread", "ageGroup": "all", "sourceId": "phrases" },
+    { "id": "food-water", "chechen": "Хи", "russian": "Вода", "transcription": "хи; точную долготу уточнит запись носителя", "type": "word", "audio": "/audio/food-water.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#water", "ageGroup": "all", "sourceId": "phrases" },
+    { "id": "food-milk", "chechen": "Шура", "russian": "Молоко", "transcription": "шу-ра; ориентир чтения без ударения", "type": "word", "audio": "/audio/food-milk.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#milk", "ageGroup": "all", "sourceId": "phrases" },
+    { "id": "food-salt", "chechen": "Туьха", "russian": "Соль", "transcription": "Туьха: уь без точного русского аналога.", "type": "word", "audio": "/audio/food-salt.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#salt", "ageGroup": "all", "sourceId": "phrases" },
+    { "id": "food-apple", "chechen": "Ӏаж", "russian": "Яблоко", "transcription": "Ӏаж: начальная палочка обозначает особый согласный.", "type": "word", "audio": "/audio/food-apple.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#apple", "ageGroup": "all", "sourceId": "apple" },
+    { "id": "food-pear", "chechen": "Кхор", "russian": "Груша", "transcription": "Кхор: кх не равно последовательности русских к и х.", "type": "word", "audio": "/audio/food-pear.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#pear", "ageGroup": "all", "sourceId": "pear" },
+    { "id": "food-meat", "chechen": "Жижиг", "russian": "Мясо", "transcription": "жи-жиг; ориентир чтения, произношение ожидается", "type": "word", "audio": "/audio/food-meat.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#meat", "ageGroup": "all", "sourceId": "meat" },
+    { "id": "food-tea", "chechen": "Чай", "russian": "Чай", "transcription": "чай; заимствованное слово", "type": "word", "audio": "/audio/food-tea.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#tea", "ageGroup": "all", "sourceId": "tea" }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "react-vite-tailwind",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@fontsource-variable/nunito": "5.3.0",
+    "@playwright/test": "1.63.0",
+    "ajv": "8.20.0",
+    "clsx": "2.1.1",
+    "lucide-react": "1.46.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6",
+    "tailwind-merge": "3.4.0",
+    "vitest": "4.1.11",
+    "workbox-core": "7.4.0",
+    "workbox-precaching": "7.4.0",
+    "workbox-range-requests": "7.4.0",
+    "workbox-routing": "7.4.0",
+    "workbox-strategies": "7.4.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "4.1.17",
+    "@types/node": "22.19.17",
+    "@types/react": "19.2.7",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "5.1.1",
+    "tailwindcss": "4.1.17",
+    "typescript": "5.9.3",
+    "vite": "7.3.5",
+    "vite-plugin-singlefile": "2.3.0"
+  }
+}

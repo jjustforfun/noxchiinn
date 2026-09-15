@@ -1,0 +1,5 @@
+{
+  "success": { "volume": 0.1, "notes": [{ "hz": 659.25, "at": 0, "duration": 0.11 }, { "hz": 880, "at": 0.1, "duration": 0.19 }] },
+  "retry": { "volume": 0.075, "notes": [{ "hz": 392, "at": 0, "duration": 0.13 }, { "hz": 349.23, "at": 0.11, "duration": 0.18 }] },
+  "complete": { "volume": 0.08, "notes": [{ "hz": 523.25, "at": 0, "duration": 0.13 }, { "hz": 659.25, "at": 0.11, "duration": 0.13 }, { "hz": 783.99, "at": 0.22, "duration": 0.23 }] }
+}

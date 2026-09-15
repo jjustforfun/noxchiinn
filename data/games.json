@@ -1,0 +1,10 @@
+{
+  "modes": [
+    { "id": "visual", "title": "Узнаём и выбираем", "alphabetTitle": "Узнаём буквы", "description": "Посмотри на картинку и выбери слово", "icon": "book", "color": "green", "practiceOnly": false },
+    { "id": "match", "title": "Найди пару", "description": "Соедини картинки и чеченские слова", "icon": "pairs", "color": "purple", "practiceOnly": false },
+    { "id": "build", "title": "Собери слово", "description": "Расставь буквы по своим местам", "icon": "letters", "color": "peach", "practiceOnly": false },
+    { "id": "speed", "title": "Быстрые открытия", "description": "Короткая викторина на время, без потери жизней", "icon": "timer", "color": "blue", "practiceOnly": true },
+    { "id": "audio", "title": "Слушаем и выбираем", "description": "Настоящие записи носителя", "icon": "headphones", "color": "green", "practiceOnly": false }
+  ],
+  "ages": { "5-8": { "choices": 3, "pairs": 3, "practiceQuestions": 5, "quizSeconds": 90, "distractors": 0 }, "9+": { "choices": 4, "pairs": 4, "practiceQuestions": 8, "quizSeconds": 60, "distractors": 2 } }
+}

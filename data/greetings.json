@@ -1,0 +1,18 @@
+{
+  "$schema": "./lesson.schema.json", "id": "words", "title": "Первые слова", "level": 4, "language": "ce", "version": 1, "reviewStatus": "native-review-needed", "sourceIds": ["phrases"],
+  "note": "Вежливые фразы взяты из разговорника. Иллюстрации символические, поэтому рядом всегда есть русское значение. Грамматику и произношение должен проверить преподаватель.",
+  "lessons": [
+    { "id": "words-1", "title": "Давай познакомимся", "description": "Здороваемся, благодарим и прощаемся", "duration": 3, "items": ["hello", "thanks", "yes", "bye"] },
+    { "id": "words-2", "title": "Добрые слова", "description": "Пожелания и вежливые просьбы", "duration": 4, "items": ["morning", "day-good", "sorry", "wait"] }
+  ],
+  "items": [
+    { "id": "hello", "chechen": "Маршалла хуьлда", "russian": "Здравствуйте", "transcription": "Маршалла хуьлда: уь без точного русского аналога; фраза ожидает озвучки.", "type": "word", "audio": "/audio/hello.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#hello", "ageGroup": "all" },
+    { "id": "thanks", "chechen": "Баркалла", "russian": "Спасибо", "transcription": "бар-кал-ла; ориентир чтения, не фонетическая транскрипция", "type": "word", "audio": "/audio/thanks.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#thanks", "ageGroup": "all" },
+    { "id": "yes", "chechen": "ХӀаъ", "russian": "Да", "transcription": "ХӀаъ: хӀ не равно русскому х; конечный ъ важен.", "type": "word", "audio": "/audio/yes.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#yes", "ageGroup": "all" },
+    { "id": "bye", "chechen": "Марша Ӏайла", "russian": "До свидания", "transcription": "Марша Ӏайла: палочка обозначает особый согласный, не единицу.", "type": "word", "audio": "/audio/bye.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#bye", "ageGroup": "all" },
+    { "id": "morning", "chechen": "Ӏуьйре дика хуьлда", "russian": "Доброе утро", "transcription": "Ӏуьйре дика хуьлда: палочка и уь требуют записи носителя.", "type": "word", "audio": "/audio/morning.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#morning", "ageGroup": "all" },
+    { "id": "day-good", "chechen": "Де дика хуьлда", "russian": "Добрый день", "transcription": "Де дика хуьлда: ориентир чтения; уь без точного русского аналога.", "type": "word", "audio": "/audio/day-good.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#sun", "ageGroup": "all" },
+    { "id": "sorry", "chechen": "Бехк ма билла", "russian": "Извините", "transcription": "бехк ма бил-ла; ориентир чтения без обозначения ударения", "type": "word", "audio": "/audio/sorry.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#sorry", "ageGroup": "all" },
+    { "id": "wait", "chechen": "Собар де", "russian": "Подождите", "transcription": "со-бар де; ориентир чтения, точное произношение ожидается", "type": "word", "audio": "/audio/wait.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#wait", "ageGroup": "all" }
+  ]
+}

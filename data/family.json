@@ -1,0 +1,18 @@
+{
+  "$schema": "./lesson.schema.json", "id": "family", "title": "Моя семья", "level": 5, "language": "ce", "version": 1, "reviewStatus": "native-review-needed", "sourceIds": ["phrases", "grammar", "father"],
+  "note": "Слова родства. Ден да и ден нана уточняют родство по отцу; для родственников по матери употребляются другие сочетания. КӀант также значит мальчик.",
+  "lessons": [
+    { "id": "family-1", "title": "Самые близкие", "description": "Мама, папа, брат и сестра", "duration": 3, "items": ["family-mother", "family-father", "family-brother", "family-sister"] },
+    { "id": "family-2", "title": "Вся семья вместе", "description": "Дети, бабушка и дедушка", "duration": 3, "items": ["family-son", "family-daughter", "family-grandfather", "family-grandmother"] }
+  ],
+  "items": [
+    { "id": "family-mother", "chechen": "Нана", "russian": "Мама", "transcription": "на-на; ориентир чтения без обозначения ударения", "type": "word", "audio": "/audio/family-mother.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#mother", "ageGroup": "all" },
+    { "id": "family-father", "chechen": "Да", "russian": "Папа", "transcription": "да; это слово значит отец, не русский ответ «да»", "type": "word", "audio": "/audio/family-father.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#father", "ageGroup": "all" },
+    { "id": "family-brother", "chechen": "Ваша", "russian": "Брат", "transcription": "ва-ша; ориентир чтения, не точная фонетика", "type": "word", "audio": "/audio/family-brother.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#brother", "ageGroup": "all" },
+    { "id": "family-sister", "chechen": "Йиша", "russian": "Сестра", "transcription": "йи-ша; начальная й сохраняется", "type": "word", "audio": "/audio/family-sister.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#sister", "ageGroup": "all" },
+    { "id": "family-son", "chechen": "КӀант", "russian": "Сын", "transcription": "КӀант: кӀ абруптивный; также означает «мальчик».", "type": "word", "audio": "/audio/family-son.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#son", "ageGroup": "all" },
+    { "id": "family-daughter", "chechen": "ЙоӀ", "russian": "Дочь", "transcription": "ЙоӀ: последний знак палочка, произношение ожидает записи.", "type": "word", "audio": "/audio/family-daughter.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#daughter", "ageGroup": "all" },
+    { "id": "family-grandfather", "chechen": "Ден да", "russian": "Дедушка по папе", "transcription": "ден да; буквально отец отца", "type": "word", "audio": "/audio/family-grandfather.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#grandfather", "ageGroup": "all", "sourceId": "father" },
+    { "id": "family-grandmother", "chechen": "Ден нана", "russian": "Бабушка по папе", "transcription": "ден на-на; буквально мать отца", "type": "word", "audio": "/audio/family-grandmother.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#grandmother", "ageGroup": "all", "sourceId": "father" }
+  ]
+}

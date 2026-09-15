@@ -1,0 +1,23 @@
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: no-referrer
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), payment=(), usb=(), serial=(), bluetooth=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Strict-Transport-Security: max-age=31536000
+  Content-Security-Policy: object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'
+
+# Полная CSP с хешами заменяет этот шаблон в dist после scripts/harden.mjs.
+
+/sw.js
+  Cache-Control: no-cache
+
+/release.js
+  Cache-Control: no-cache
+
+/release-manifest.json
+  Cache-Control: no-cache
+
+/
+  Cache-Control: no-cache

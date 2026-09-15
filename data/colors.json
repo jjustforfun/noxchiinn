@@ -1,0 +1,18 @@
+{
+  "$schema": "./lesson.schema.json", "id": "colors", "title": "Цвета", "level": 3, "language": "ce", "version": 1, "reviewStatus": "native-review-needed", "sourceIds": ["colors", "phrases"],
+  "note": "Выбраны базовые прилагательные, не субстантивированные формы на -ниг. Для серого используется сира из разговорника. Название и форма проверяются преподавателем до релиза.",
+  "lessons": [
+    { "id": "colors-1", "title": "Яркий день", "description": "Красный, жёлтый, зелёный и синий", "duration": 3, "items": ["color-red", "color-yellow", "color-green", "color-blue"] },
+    { "id": "colors-2", "title": "Все краски рядом", "description": "Белый, чёрный, серый и коричневый", "duration": 3, "items": ["color-white", "color-black", "color-gray", "color-brown"] }
+  ],
+  "items": [
+    { "id": "color-red", "chechen": "ЦӀен", "russian": "Красный", "transcription": "ЦӀен: цӀ абруптивный, не обычный русский ц.", "swatch": "#da726b", "type": "word", "audio": "/audio/color-red.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "color-yellow", "chechen": "Можа", "russian": "Жёлтый", "transcription": "мо-жа; ориентир чтения, без точного ударения", "swatch": "#f0c757", "type": "word", "audio": "/audio/color-yellow.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "color-green", "chechen": "Баьццара", "russian": "Зелёный", "transcription": "Баьццара: аь без точного русского аналога; двойная ц сохраняется.", "swatch": "#71a47b", "type": "word", "audio": "/audio/color-green.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "color-blue", "chechen": "Сийна", "russian": "Синий", "transcription": "сий-на; точную долготу уточнит носитель", "swatch": "#6d99ce", "type": "word", "audio": "/audio/color-blue.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "color-white", "chechen": "КӀайн", "russian": "Белый", "transcription": "КӀайн: кӀ абруптивный, не русский к.", "swatch": "#fffdf6", "type": "word", "audio": "/audio/color-white.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "color-black", "chechen": "Ӏаьржа", "russian": "Чёрный", "transcription": "Ӏаьржа: начальная палочка и аь требуют записи носителя.", "swatch": "#3f4946", "type": "word", "audio": "/audio/color-black.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "color-gray", "chechen": "Сира", "russian": "Серый", "transcription": "си-ра; вариант разговорника, оттенки могут называться иначе", "swatch": "#a4aba5", "type": "word", "audio": "/audio/color-gray.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "color-brown", "chechen": "Боьмаша", "russian": "Коричневый", "transcription": "Боьмаша: оь без точного русского аналога.", "swatch": "#a87b54", "type": "word", "audio": "/audio/color-brown.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" }
+  ]
+}

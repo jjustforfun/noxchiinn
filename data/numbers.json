@@ -1,0 +1,33 @@
+{
+  "$schema": "./lesson.schema.json", "id": "numbers", "title": "Цифры", "level": 2, "language": "ce", "version": 1,
+  "reviewStatus": "native-review-needed", "sourceIds": ["counting"],
+  "note": "Учимся считать от 1 до 20 отдельно от существительных. Русские пояснения не являются точной транскрипцией; аудио носителя отсутствует. Варианты 16-19 взяты из одного учебного источника.",
+  "lessons": [
+    { "id": "numbers-1", "title": "Пять маленьких открытий", "description": "Считаем от одного до пяти", "duration": 3, "items": ["number-1", "number-2", "number-3", "number-4", "number-5"] },
+    { "id": "numbers-2", "title": "Уже целых десять", "description": "Знакомимся с числами 6-10", "duration": 3, "items": ["number-6", "number-7", "number-8", "number-9", "number-10"] },
+    { "id": "numbers-3", "title": "Больше, чем десять", "description": "Числа от 11 до 15", "duration": 4, "items": ["number-11", "number-12", "number-13", "number-14", "number-15"] },
+    { "id": "numbers-4", "title": "До двадцати и обратно", "description": "Последняя пятёрка: 16-20", "duration": 4, "items": ["number-16", "number-17", "number-18", "number-19", "number-20"] }
+  ],
+  "items": [
+    { "id": "number-1", "chechen": "Цхьаъ", "russian": "Один", "transcription": "Цхьаъ: сочетание хь не равно мягкому русскому х; конечный ъ важен.", "number": 1, "type": "word", "audio": "/audio/number-1.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-2", "chechen": "Шиъ", "russian": "Два", "transcription": "Шиъ: не пропускай конечный ъ; точное произношение ожидает записи.", "number": 2, "type": "word", "audio": "/audio/number-2.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-3", "chechen": "Кхоъ", "russian": "Три", "transcription": "Кхоъ: кх обозначает особый согласный, не два русских звука.", "number": 3, "type": "word", "audio": "/audio/number-3.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-4", "chechen": "Диъ", "russian": "Четыре", "transcription": "Диъ: форма для отдельного счёта; с существительным может меняться.", "number": 4, "type": "word", "audio": "/audio/number-4.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-5", "chechen": "Пхиъ", "russian": "Пять", "transcription": "Пхиъ: конечный ъ сохраняется в отдельном счёте.", "number": 5, "type": "word", "audio": "/audio/number-5.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-6", "chechen": "Ялх", "russian": "Шесть", "transcription": "ялх; ориентир чтения, не фонетическая запись", "number": 6, "type": "word", "audio": "/audio/number-6.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-7", "chechen": "ВорхӀ", "russian": "Семь", "transcription": "ВорхӀ: хӀ обозначает гортанный согласный, русского аналога нет.", "number": 7, "type": "word", "audio": "/audio/number-7.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-8", "chechen": "БархӀ", "russian": "Восемь", "transcription": "БархӀ: точное произношение хӀ нужно слушать у носителя.", "number": 8, "type": "word", "audio": "/audio/number-8.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-9", "chechen": "Исс", "russian": "Девять", "transcription": "исс; двойная с сохраняется", "number": 9, "type": "word", "audio": "/audio/number-9.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-10", "chechen": "Итт", "russian": "Десять", "transcription": "итт; двойная т сохраняется", "number": 10, "type": "word", "audio": "/audio/number-10.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-11", "chechen": "Цхьайтта", "russian": "Одиннадцать", "transcription": "цхьай-тта; хь не передаётся точно русскими звуками", "number": 11, "type": "word", "audio": "/audio/number-11.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-12", "chechen": "Шийтта", "russian": "Двенадцать", "transcription": "ший-тта; ориентир чтения без обозначения ударения", "number": 12, "type": "word", "audio": "/audio/number-12.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-13", "chechen": "Кхойтта", "russian": "Тринадцать", "transcription": "кхой-тта; кх обозначает один особый согласный", "number": 13, "type": "word", "audio": "/audio/number-13.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-14", "chechen": "Дейтта", "russian": "Четырнадцать", "transcription": "дей-тта; форма для отдельного счёта", "number": 14, "type": "word", "audio": "/audio/number-14.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-15", "chechen": "Пхийтта", "russian": "Пятнадцать", "transcription": "пхий-тта; ориентир чтения, не точная фонетика", "number": 15, "type": "word", "audio": "/audio/number-15.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-16", "chechen": "Ялхитта", "russian": "Шестнадцать", "transcription": "ял-хит-та; в других источниках встречается ялхийтта", "number": 16, "type": "word", "audio": "/audio/number-16.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-17", "chechen": "ВуьрхӀитта", "russian": "Семнадцать", "transcription": "ВуьрхӀитта: уь и хӀ требуют записи носителя; есть вариант вуьрхӀийтта.", "number": 17, "type": "word", "audio": "/audio/number-17.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-18", "chechen": "БерхӀитта", "russian": "Восемнадцать", "transcription": "БерхӀитта: произношение хӀ ожидает проверки; есть вариант берхӀийтта.", "number": 18, "type": "word", "audio": "/audio/number-18.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-19", "chechen": "Ткъайоьсна", "russian": "Девятнадцать", "transcription": "Ткъайоьсна: вариант учебника Govzalla; встречаются иные формы. Къ и оь без точных русских аналогов.", "number": 19, "type": "word", "audio": "/audio/number-19.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" },
+    { "id": "number-20", "chechen": "Ткъа", "russian": "Двадцать", "transcription": "Ткъа: къ обозначает особый согласный; произношение нужно слушать.", "number": 20, "type": "word", "audio": "/audio/number-20.mp3", "audioStatus": "pending", "image": null, "ageGroup": "all" }
+  ]
+}

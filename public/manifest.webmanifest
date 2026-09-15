@@ -1,0 +1,23 @@
+{
+  "id": "/",
+  "name": "Нохчийн Мотт: язык твоей семьи",
+  "short_name": "Нохчийн Мотт",
+  "description": "Изучаем чеченский алфавит в игре. Маленькие открытия для детей от 5 лет и их близких.",
+  "lang": "ru",
+  "dir": "ltr",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#fafbf7",
+  "theme_color": "#278454",
+  "categories": ["education", "kids", "games"],
+  "icons": [
+    { "src": "/icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icons/icon.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "/icons/maskable.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Продолжить учиться", "short_name": "Учиться", "url": "/#learn" },
+    { "name": "Повторить алфавит", "short_name": "Тренировка", "url": "/#practice" }
+  ]
+}

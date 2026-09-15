@@ -1,0 +1,14 @@
+{
+  "daily": {
+    "id": "word-nana",
+    "chechen": "Нана",
+    "russian": "мама",
+    "transcription": "нана; произношение нужно сверить с носителем",
+    "audio": "/audio/word-nana.mp3",
+    "audioStatus": "pending",
+    "image": null,
+    "ageGroup": "all",
+    "description": "Самые важные слова о самых близких.",
+    "source": "https://govzalla.com/dosh/"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "./lesson.schema.json", "id": "body", "title": "Моё тело", "level": 8, "language": "ce", "version": 1, "reviewStatus": "native-review-needed", "sourceIds": ["grammar", "counting"],
+  "note": "Нейтральная лексика частей тела. В словах с уь, Ӏ и аь русская запись не передаёт точное произношение.",
+  "lessons": [
+    { "id": "body-1", "title": "Смотрим и слушаем", "description": "Голова, глаз, ухо и нос", "duration": 3, "items": ["body-head", "body-eye", "body-ear", "body-nose"] },
+    { "id": "body-2", "title": "Двигаемся и улыбаемся", "description": "Рука, нога, зуб и шея", "duration": 3, "items": ["body-hand", "body-leg", "body-tooth", "body-neck"] }
+  ],
+  "items": [
+    { "id": "body-head", "chechen": "Корта", "russian": "Голова", "transcription": "кор-та; ориентир чтения без ударения", "type": "word", "audio": "/audio/body-head.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#head", "ageGroup": "all", "sourceId": "grammar" },
+    { "id": "body-eye", "chechen": "БӀаьрг", "russian": "Глаз", "transcription": "БӀаьрг: палочка и аь не передаются точно русскими звуками.", "type": "word", "audio": "/audio/body-eye.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#eye", "ageGroup": "all", "sourceId": "counting" },
+    { "id": "body-ear", "chechen": "Лерг", "russian": "Ухо", "transcription": "лерг; ориентир чтения, не точная фонетика", "type": "word", "audio": "/audio/body-ear.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#ear", "ageGroup": "all", "sourceId": "grammar" },
+    { "id": "body-nose", "chechen": "Мара", "russian": "Нос", "transcription": "ма-ра; долгота и ударение ожидают проверки", "type": "word", "audio": "/audio/body-nose.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#nose", "ageGroup": "all", "sourceId": "counting" },
+    { "id": "body-hand", "chechen": "Куьг", "russian": "Рука", "transcription": "Куьг: уь без точного русского аналога.", "type": "word", "audio": "/audio/body-hand.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#hand", "ageGroup": "all", "sourceId": "grammar" },
+    { "id": "body-leg", "chechen": "Ког", "russian": "Нога", "transcription": "ког; ориентир чтения без ударения", "type": "word", "audio": "/audio/body-leg.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#leg", "ageGroup": "all", "sourceId": "grammar" },
+    { "id": "body-tooth", "chechen": "Церг", "russian": "Зуб", "transcription": "церг; точное произношение ожидает носителя", "type": "word", "audio": "/audio/body-tooth.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#tooth", "ageGroup": "all", "sourceId": "grammar" },
+    { "id": "body-neck", "chechen": "Ворта", "russian": "Шея", "transcription": "вор-та; ориентир чтения без ударения", "type": "word", "audio": "/audio/body-neck.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#neck", "ageGroup": "all", "sourceId": "grammar" }
+  ]
+}

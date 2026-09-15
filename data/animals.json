@@ -1,0 +1,18 @@
+{
+  "$schema": "./lesson.schema.json", "id": "animals", "title": "Животные", "level": 7, "language": "ce", "version": 1, "reviewStatus": "native-review-needed", "sourceIds": ["animals"],
+  "note": "Названия сверены с лексическими примерами научной статьи. Картинки созданы для приложения и не скопированы из источника. Пхьагал здесь заяц, не кролик.",
+  "lessons": [
+    { "id": "animals-1", "title": "Друзья рядом с домом", "description": "Кошка, собака, лошадь и корова", "duration": 3, "items": ["animal-cat", "animal-dog", "animal-horse", "animal-cow"] },
+    { "id": "animals-2", "title": "По лесной тропинке", "description": "Волк, лиса, медведь и заяц", "duration": 3, "items": ["animal-wolf", "animal-fox", "animal-bear", "animal-hare"] }
+  ],
+  "items": [
+    { "id": "animal-cat", "chechen": "Цициг", "russian": "Кошка", "transcription": "ци-циг; ориентир чтения без ударения", "type": "word", "audio": "/audio/animal-cat.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#cat", "ageGroup": "all" },
+    { "id": "animal-dog", "chechen": "ЖӀаьла", "russian": "Собака", "transcription": "ЖӀаьла: палочка и аь требуют проверки носителем.", "type": "word", "audio": "/audio/animal-dog.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#dog", "ageGroup": "all" },
+    { "id": "animal-horse", "chechen": "Говр", "russian": "Лошадь", "transcription": "говр; точную долготу и звучание уточнит носитель", "type": "word", "audio": "/audio/animal-horse.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#horse", "ageGroup": "all" },
+    { "id": "animal-cow", "chechen": "Етт", "russian": "Корова", "transcription": "етт; двойная т сохраняется; также встречается написание йетт", "type": "word", "audio": "/audio/animal-cow.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#cow", "ageGroup": "all" },
+    { "id": "animal-wolf", "chechen": "Борз", "russian": "Волк", "transcription": "борз; ориентир чтения, не фонетическая транскрипция", "type": "word", "audio": "/audio/animal-wolf.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#wolf", "ageGroup": "all" },
+    { "id": "animal-fox", "chechen": "Цхьогал", "russian": "Лиса", "transcription": "Цхьогал: хь обозначает особый глоточный согласный.", "type": "word", "audio": "/audio/animal-fox.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#fox", "ageGroup": "all" },
+    { "id": "animal-bear", "chechen": "Ча", "russian": "Медведь", "transcription": "ча; произношение и долготу уточнит запись", "type": "word", "audio": "/audio/animal-bear.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#bear", "ageGroup": "all" },
+    { "id": "animal-hare", "chechen": "Пхьагал", "russian": "Заяц", "transcription": "Пхьагал: хь без точного русского аналога.", "type": "word", "audio": "/audio/animal-hare.mp3", "audioStatus": "pending", "image": "/images/vocabulary.svg#hare", "ageGroup": "all" }
+  ]
+}
