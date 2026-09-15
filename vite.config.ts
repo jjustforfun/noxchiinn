@@ -10,6 +10,8 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Разрешаем предпросмотр через прокси-хост песочницы (только для dev-сервера).
+  server: { host: true, allowedHosts: [".e2b.app"] },
   plugins: [react(), tailwindcss(), viteSingleFile()],
   resolve: {
     alias: {

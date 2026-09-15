@@ -10,14 +10,41 @@
   "display": "standalone",
   "background_color": "#fafbf7",
   "theme_color": "#278454",
-  "categories": ["education", "kids", "games"],
+  "categories": [
+    "education",
+    "kids",
+    "games"
+  ],
   "icons": [
-    { "src": "/icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any" },
-    { "src": "/icons/icon.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any" },
-    { "src": "/icons/maskable.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "maskable" }
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ],
   "shortcuts": [
-    { "name": "Продолжить учиться", "short_name": "Учиться", "url": "/#learn" },
-    { "name": "Повторить алфавит", "short_name": "Тренировка", "url": "/#practice" }
+    {
+      "name": "Продолжить учиться",
+      "short_name": "Учиться",
+      "url": "/#learn"
+    },
+    {
+      "name": "Повторить алфавит",
+      "short_name": "Тренировка",
+      "url": "/#practice"
+    }
   ]
 }

@@ -1,0 +1,26 @@
+# Зависимости
+node_modules/
+
+# Сборка и артефакты выпуска
+dist/
+.vercel/
+.netlify/
+
+# Кэши инструментов
+.vite/
+.cache/
+playwright-report/
+test-results/
+coverage/
+
+# Логи
+*.log
+npm-debug.log*
+
+# Системные и редакторские файлы
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.local

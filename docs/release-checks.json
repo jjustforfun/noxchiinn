@@ -1,0 +1,518 @@
+{
+  "generatedAt": "2026-09-15T13:09:15.425Z",
+  "release": "i8nrrk7YCRywq7noWNzscBqVE5ysUbZbb9hdwbRmg68",
+  "passed": true,
+  "jsGzipBytes": 133402,
+  "checks": [
+    {
+      "name": "Same release identifier",
+      "passed": true
+    },
+    {
+      "name": "SRI /",
+      "passed": true
+    },
+    {
+      "name": "SRI /404.html",
+      "passed": true
+    },
+    {
+      "name": "SRI /about.html",
+      "passed": true
+    },
+    {
+      "name": "SRI /icons/apple-touch-icon.png",
+      "passed": true
+    },
+    {
+      "name": "SRI /icons/icon-192.png",
+      "passed": true
+    },
+    {
+      "name": "SRI /icons/icon-192.svg",
+      "passed": true
+    },
+    {
+      "name": "SRI /icons/icon-512.png",
+      "passed": true
+    },
+    {
+      "name": "SRI /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "SRI /icons/maskable-512.png",
+      "passed": true
+    },
+    {
+      "name": "SRI /icons/maskable.svg",
+      "passed": true
+    },
+    {
+      "name": "SRI /images/learning-landscape.png",
+      "passed": true
+    },
+    {
+      "name": "SRI /images/learning-landscape.webp",
+      "passed": true
+    },
+    {
+      "name": "SRI /images/share.jpg",
+      "passed": true
+    },
+    {
+      "name": "SRI /images/vocabulary.svg",
+      "passed": true
+    },
+    {
+      "name": "SRI /learning-landscape-BOcVcnl2.png",
+      "passed": true
+    },
+    {
+      "name": "SRI /learning-landscape-D1ZWb6WI.webp",
+      "passed": true
+    },
+    {
+      "name": "SRI /manifest.webmanifest",
+      "passed": true
+    },
+    {
+      "name": "SRI /nunito-cyrillic-ext-wght-normal-D4X5GqEv.woff2",
+      "passed": true
+    },
+    {
+      "name": "SRI /nunito-cyrillic-wght-normal-CY6AOgYE.woff2",
+      "passed": true
+    },
+    {
+      "name": "SRI /nunito-latin-wght-normal-BzFMHfZw.woff2",
+      "passed": true
+    },
+    {
+      "name": "SRI /offline.html",
+      "passed": true
+    },
+    {
+      "name": "SRI /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "SRI /robots.txt",
+      "passed": true
+    },
+    {
+      "name": "SRI /service-Y9rxEe-u.js",
+      "passed": true
+    },
+    {
+      "name": "SRI /site.css",
+      "passed": true
+    },
+    {
+      "name": "SRI /sitemap.xml",
+      "passed": true
+    },
+    {
+      "name": "SRI /sources.html",
+      "passed": true
+    },
+    {
+      "name": "SRI /sw.js",
+      "passed": true
+    },
+    {
+      "name": "SRI /vocabulary-DgQRyU29.svg",
+      "passed": true
+    },
+    {
+      "name": "CSP /",
+      "passed": true
+    },
+    {
+      "name": "Headers /",
+      "passed": true
+    },
+    {
+      "name": "Title and description /",
+      "passed": true
+    },
+    {
+      "name": "One h1 /",
+      "passed": true
+    },
+    {
+      "name": "Language /",
+      "passed": true
+    },
+    {
+      "name": "No private state /",
+      "passed": true
+    },
+    {
+      "name": "FAQ JSON-LD /",
+      "passed": true
+    },
+    {
+      "name": "Visible FAQ /",
+      "passed": true
+    },
+    {
+      "name": "Preview noindex /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /about.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /learning-landscape-BOcVcnl2.png",
+      "passed": true
+    },
+    {
+      "name": "Local URL /about.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /about.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "CSP /about.html",
+      "passed": true
+    },
+    {
+      "name": "Headers /about.html",
+      "passed": true
+    },
+    {
+      "name": "Title and description /about.html",
+      "passed": true
+    },
+    {
+      "name": "One h1 /about.html",
+      "passed": true
+    },
+    {
+      "name": "Language /about.html",
+      "passed": true
+    },
+    {
+      "name": "No private state /about.html",
+      "passed": true
+    },
+    {
+      "name": "No application JavaScript /about.html",
+      "passed": true
+    },
+    {
+      "name": "FAQ JSON-LD /about.html",
+      "passed": true
+    },
+    {
+      "name": "Visible FAQ /about.html",
+      "passed": true
+    },
+    {
+      "name": "Preview noindex /about.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Local URL /manifest.webmanifest",
+      "passed": true
+    },
+    {
+      "name": "Local URL /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Local URL /about.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /learning-landscape-BOcVcnl2.png",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /about.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /about.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /sources.html",
+      "passed": true
+    },
+    {
+      "name": "CSP /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Headers /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Title and description /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "One h1 /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Language /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "No private state /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "No application JavaScript /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Preview noindex /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Local URL /manifest.webmanifest",
+      "passed": true
+    },
+    {
+      "name": "Local URL /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Local URL /about.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /about.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /sources.html",
+      "passed": true
+    },
+    {
+      "name": "CSP /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Headers /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Title and description /sources.html",
+      "passed": true
+    },
+    {
+      "name": "One h1 /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Language /sources.html",
+      "passed": true
+    },
+    {
+      "name": "No private state /sources.html",
+      "passed": true
+    },
+    {
+      "name": "No application JavaScript /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Preview noindex /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Local URL /manifest.webmanifest",
+      "passed": true
+    },
+    {
+      "name": "Local URL /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /icons/icon.svg",
+      "passed": true
+    },
+    {
+      "name": "Local URL /about.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /",
+      "passed": true
+    },
+    {
+      "name": "Local URL /about.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /privacy.html",
+      "passed": true
+    },
+    {
+      "name": "Local URL /sources.html",
+      "passed": true
+    },
+    {
+      "name": "Initial JS gzip below 200KB",
+      "passed": true
+    },
+    {
+      "name": "Analytics remains disabled",
+      "passed": true
+    },
+    {
+      "name": "404 remains noindex",
+      "passed": true
+    },
+    {
+      "name": "Sitemap contains only approved pages",
+      "passed": true
+    }
+  ],
+  "browserVerified": false,
+  "lighthouseVerified": false
+}

@@ -1,0 +1,54 @@
+{
+  "release": "i8nrrk7YCRywq7noWNzscBqVE5ysUbZbb9hdwbRmg68",
+  "generatedAt": "2026-09-15T13:09:15.384Z",
+  "files": 29,
+  "strictScriptCsp": true,
+  "strictStyleCsp": true,
+  "policies": {
+    "index.html": "default-src 'none'; script-src 'sha256-lc2o+jTZMIpcji+ZYUAE9i0SvGWJXyk/9mDB7xmuusE=' 'sha256-256FyFbxCWICiOp//HR+iMKgO6YepEfFu/2wQ3l9P7E='; script-src-attr 'none'; style-src 'sha256-++y+gO5s8G4ZaZkRoaRV/tvuuC24JGv+jM8eeGvFpIs=' 'sha256-QMvTBl5BNT5mtGlSzQPtwatGLo4E94t2FGq9umyO/GY='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+    "offline.html": "default-src 'none'; script-src 'none'; script-src-attr 'none'; style-src 'sha256-CR9SxjxKzk8+npuVwVMzYifwbbyCDSKPYXJf++gHAHw='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+    "404.html": "default-src 'none'; script-src 'none'; script-src-attr 'none'; style-src 'sha256-DrgTJAj5E/83ysqI2kt3Ma7Dvuy7cR0xubySF+J1ops='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+    "about.html": "default-src 'none'; script-src 'sha256-uvh5Ocj0rW94PghSyaZKDmxdFwBKjOShXVx2ikRyjSo='; script-src-attr 'none'; style-src 'sha256-Aag4ciy7759oaQSlKWhHB8az+DPnE1P5aSvgfPaAtmM='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+    "privacy.html": "default-src 'none'; script-src 'sha256-uVvz3giDoj8SkfDibd+3FB+PefsstDgJ79704Y8X8/s='; script-src-attr 'none'; style-src 'sha256-Aag4ciy7759oaQSlKWhHB8az+DPnE1P5aSvgfPaAtmM='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+    "sources.html": "default-src 'none'; script-src 'sha256-uVvz3giDoj8SkfDibd+3FB+PefsstDgJ79704Y8X8/s='; script-src-attr 'none'; style-src 'sha256-Aag4ciy7759oaQSlKWhHB8az+DPnE1P5aSvgfPaAtmM='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'"
+  },
+  "documentHeaders": {
+    "index.html": {
+      "Content-Security-Policy": "default-src 'none'; script-src 'sha256-lc2o+jTZMIpcji+ZYUAE9i0SvGWJXyk/9mDB7xmuusE=' 'sha256-256FyFbxCWICiOp//HR+iMKgO6YepEfFu/2wQ3l9P7E='; script-src-attr 'none'; style-src 'sha256-++y+gO5s8G4ZaZkRoaRV/tvuuC24JGv+jM8eeGvFpIs=' 'sha256-QMvTBl5BNT5mtGlSzQPtwatGLo4E94t2FGq9umyO/GY='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      "Cache-Control": "no-cache",
+      "Content-Type": "text/html; charset=utf-8",
+      "X-Robots-Tag": "noindex, nofollow, noarchive"
+    },
+    "offline.html": {
+      "Content-Security-Policy": "default-src 'none'; script-src 'none'; script-src-attr 'none'; style-src 'sha256-CR9SxjxKzk8+npuVwVMzYifwbbyCDSKPYXJf++gHAHw='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      "Cache-Control": "no-cache",
+      "Content-Type": "text/html; charset=utf-8",
+      "X-Robots-Tag": "noindex, nofollow"
+    },
+    "404.html": {
+      "Content-Security-Policy": "default-src 'none'; script-src 'none'; script-src-attr 'none'; style-src 'sha256-DrgTJAj5E/83ysqI2kt3Ma7Dvuy7cR0xubySF+J1ops='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      "Cache-Control": "no-cache",
+      "Content-Type": "text/html; charset=utf-8",
+      "X-Robots-Tag": "noindex,nofollow"
+    },
+    "about.html": {
+      "Content-Security-Policy": "default-src 'none'; script-src 'sha256-uvh5Ocj0rW94PghSyaZKDmxdFwBKjOShXVx2ikRyjSo='; script-src-attr 'none'; style-src 'sha256-Aag4ciy7759oaQSlKWhHB8az+DPnE1P5aSvgfPaAtmM='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      "Cache-Control": "no-cache",
+      "Content-Type": "text/html; charset=utf-8",
+      "X-Robots-Tag": "noindex, nofollow, noarchive"
+    },
+    "privacy.html": {
+      "Content-Security-Policy": "default-src 'none'; script-src 'sha256-uVvz3giDoj8SkfDibd+3FB+PefsstDgJ79704Y8X8/s='; script-src-attr 'none'; style-src 'sha256-Aag4ciy7759oaQSlKWhHB8az+DPnE1P5aSvgfPaAtmM='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      "Cache-Control": "no-cache",
+      "Content-Type": "text/html; charset=utf-8",
+      "X-Robots-Tag": "noindex, nofollow, noarchive"
+    },
+    "sources.html": {
+      "Content-Security-Policy": "default-src 'none'; script-src 'sha256-uVvz3giDoj8SkfDibd+3FB+PefsstDgJ79704Y8X8/s='; script-src-attr 'none'; style-src 'sha256-Aag4ciy7759oaQSlKWhHB8az+DPnE1P5aSvgfPaAtmM='; style-src-attr 'none'; img-src 'self' data:; font-src 'self' data:; connect-src 'self'; media-src 'self'; worker-src 'self'; manifest-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'",
+      "Cache-Control": "no-cache",
+      "Content-Type": "text/html; charset=utf-8",
+      "X-Robots-Tag": "noindex, nofollow, noarchive"
+    }
+  },
+  "browserVerified": false
+}

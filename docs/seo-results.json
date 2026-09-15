@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "origin": null,
+  "indexing": false,
+  "analytics": false,
+  "generatedAt": "2026-09-15T13:09:15.342Z",
+  "pages": [
+    {
+      "path": "/",
+      "file": "index.html",
+      "language": "ru",
+      "hasJavaScript": true,
+      "indexable": false
+    },
+    {
+      "path": "/about.html",
+      "file": "about.html",
+      "language": "ru",
+      "hasJavaScript": false,
+      "indexable": false
+    },
+    {
+      "path": "/privacy.html",
+      "file": "privacy.html",
+      "language": "ru",
+      "hasJavaScript": false,
+      "indexable": false
+    },
+    {
+      "path": "/sources.html",
+      "file": "sources.html",
+      "language": "ru",
+      "hasJavaScript": false,
+      "indexable": false
+    }
+  ],
+  "domainRequired": true
+}
